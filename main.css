@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+}
+
+#wrapper {
+    margin: auto;
+    width: 800px;
+    height: 1500px;
+}
+
+.gap {
+    height: 50px;
+}
+
+#banner {
+    height: 600px;
+    background: url('../DynamicQuartetPhoto.jpg');
+    background-size: 110%;
+}
+
+#banner > a {
+    padding-top: 25px;
+    font: 15px 'Fira Sans', sans-serif;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: rgb(65, 65, 65);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.button {
+    border-bottom: solid 2px transparent;
+}
+
+.button:hover {
+    border-bottom: solid 2px rgb(225, 225, 225);
+}
+
+#banner > a > img {
+    height: 150px;
+    padding: 0 0 0 25px;
+}
+
+.headline {
+    font: 25px 'Open Sans', sans-serif;
+    float: right;
+    width: 550px;
+    padding: 50px;
+    color: rgb(50, 50, 50);
+    background: rgba(255, 255, 255, 0.95);
+}
+
+.headline > h1 {
+    display: inline;
+    font: 30px 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+.headline > h2 {
+    display: inline;
+    margin-top: 0;
+    font: 20px 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.headline > h3 {
+    font: 15px 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.headline > h4 {
+    font: 15px 'Open Sans', sans-serif;
+    color: #e74c3c;
+}
+
+.headline > p {
+    font: 15px 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.headline > h3:last-of-type {
+    font: 13px 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: rgb(100, 100, 100);
+}
+
+.bottom {
+    font: 15px 'Fira Sans', sans-serif;
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+}
+
+.dot {
+    margin: 15px;
+    color: #e74c3c;
+}
